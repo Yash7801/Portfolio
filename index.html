@@ -1,0 +1,599 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+  </head>
+  <body>
+
+    <!--===============HEADER===================-->
+
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">Y<span>A</span>S <span>H</span></a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="#home" class="nav__link active_link">Home</a></li>
+            <li><a href="#about" class="nav__link">About</a></li>
+            <li><a href="#services" class="nav__link">Services</a></li>
+            <li><a href="#portfolio" class="nav__link">Projects</a></li>
+            <li><a href="#contact" class="nav__link">Contact</a></li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="uil uil-times"></i>
+          </div>
+        </div>
+
+        <div class="nav__socials">
+            <a href="www.facebook.com" target="_blank" class="nav__social-link">
+              <i class="uil uil-facebook-f"></i>
+            </a>
+            <a href="www.github.com" target="_blank" class="nav__social-link">
+              <i class="uil uil-github"></i>
+            </a>
+            <a href="www.instagram.com" target="_blank" class="nav__social-link">
+              <i class="uil uil-instagram"></i>
+            </a>
+          </div>
+
+         <div class="nav__btns">
+          <a href="#contact" class="nav__link-btn btn">Contact Me</a>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-bars"></i>
+         </div> 
+      </nav>
+    </header>
+    <!--=================MAIN=================-->
+    <main class="main">
+      <!--============Home section==============-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <span class="home__subtitle">Welcome to My Portfolio</span>
+            <h1 class="home__title">
+              Hi, I'm Yash Choudhary a <span>Full Stack Developer.</span> Based
+              in INDIA
+            </h1>
+          </div>
+          <img src="assets/img/Doraemon.jpg" alt="" class="home__img" />
+        </div>
+      </section>
+
+      <!--============About section==============-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <img src="assets/img/about.doraemon.webp" alt="" class="img__about" />
+
+          <div class="about__content">
+            <h2 class="section__title">About Me</h2>
+
+            <p class="about__description">
+              I'm a passionate Full Stack Developer with experience in building
+              dynamic web applications. I love coding and I'm always eager to
+              learn new technologies.
+            </p>
+
+            <div class="tabs__btns">
+              <span class="tabs__btn tab__active" data-target="#skills"
+                >Main Skills</span
+              >
+              <span class="tabs__btn" data-target="#education">Education</span>
+              <span class="tabs__btn" data-target="#certifications"
+                >Certifications and Experience</span
+              >
+              <span class="tabs__btn" data-target="#projects">Projects</span>
+            </div>
+
+            <div class="tabs__content">
+              <div class="tabs__item tab__active" data-content id="skills">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>Front-End Development:</span><br />Proficient in HTML,
+                    CSS, Tailwind CSS, JavaScript, and frameworks like React.js
+                  </p>
+                  <p class="tabs__description">
+                    <span>Back-End Development:</span><br />Experience with
+                    Node.js, Express.js, and building RESTful APIs.
+                  </p>
+                  <p class="tabs__description">
+                    <span>Databases:</span><br />Experience with MySQL.
+                  </p>
+                  <p class="tabs__description">
+                    <span>Data Structures and Algorithms:</span><br />Strong
+                    problem-solving skills.
+                  </p>
+                  <p class="tabs__description">
+                    <span>Version Control:</span><br />Familiar with Git.
+                  </p>
+                  <p class="tabs__description">
+                    <span>Authentication and Authorization:</span><br />Familiar
+                    with tokenization and JWT.
+                  </p>
+                  <p class="tabs__description">
+                    <span>API Integration:</span><br />Knowledge of RESTful
+                    APIs.
+                  </p>
+                </div>
+              </div>
+
+              <div class="tabs__item" data-content id="education">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>B.Tech in CSE</span> - from IP University, Delhi,
+                    India<br /><span>2021-2025</span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="tabs__item" data-content id="certifications">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>Experience:</span><br />Served as a core part of
+                    Technical Society.
+                  </p>
+                  <p class="tabs__description">
+                    <span>Leadership:</span><br />Organized hackathons and
+                    conferences (ICRAIMMSTEL).
+                  </p>
+                  <p class="tabs__description">
+                    <span>Certifications:</span><br />Event Organizer •
+                    Leadership in Tech • Technical Society Member
+                  </p>
+                  <p class="tabs__description">
+                    <span>DSA Achievements:</span><br />3x Monthly Topper on
+                    Code360 • 1 Gold, 2 Silver, 3 Bronze • 500+ Problems Solved
+                  </p>
+                </div>
+              </div>
+
+              <div class="tabs__item" data-content id="projects">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>Major Project:</span> Real-time Blogging Platform
+                    using MERN in MySQL.
+                  </p>
+                  <p class="tabs__description">
+                    <span>Mini Projects:</span> E-commerce Platform (HTML, CSS,
+                    JS, Node.js) • Other React.js Projects
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--==============SERVICES=================-->
+      <section class="services section" id="services">
+        <h2 class="section__title">My Services</h2>
+        <p class="section__description">
+          I offer a range of services to help you build and improve your web
+          applications.
+        </p>
+
+        <div class="services__container  container grid">
+          <div class="services__item">
+            <i class="uil uil-building services__icon"></i>
+            <h3 class="services__title">Front-End Development</h3>
+            <p class="services__description">
+              I build responsive and interactive user interfaces using React.js
+              and modern CSS frameworks, ensuring seamless user experiences
+              across all devices.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-database services__icon"></i>
+            <h3 class="services__title">Back-End Development</h3>
+            <p class="services__description">
+              I develop secure and efficient RESTful APIs using Node.js and
+              Express, and manage databases with MySQL for optimized performance
+              and scalability.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-layer-group services__icon"></i>
+            <h3 class="services__title">Full-Stack Development</h3>
+            <p class="services__description">
+              I integrate both front-end and back-end technologies to deliver
+              complete, high-performance web applications using React.js and
+              Node.js.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--=================PORTFOLIO=================-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">My Latest Projects</h2>
+        <p class="section__description">Here are some of the projects I've worked on recently.</p>
+
+        <div class="portfolio__container container grid ">
+          <a href="frontend.html" class="portfolio__item">
+            <img src="https://media.licdn.com/dms/image/v2/D5612AQFSVrEIJxq_aA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1679683081898?e=2147483647&v=beta&t=jy1SUv24boZ0boUutFvP8a1cDXfXcvnHinVztXzqen4" alt="Portfolio Project 1" class="portfolio__img">
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Front-End</p>
+                <h3 class="portfolio__title">Web Design</h3>
+                <p class="portfolio__description"> Creating sleek, responsive, and user-friendly web interfaces using React.js and modern design practices.</p>
+            </div>
+          </a>
+          <a href="backend.html" class="portfolio__item">
+            <img src="https://winzons.com/wp-content/uploads/2024/06/Backend-Engineer-1.jpg" alt="Portfolio Project 1" class="portfolio__img">
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Back-End</p>
+                <h3 class="portfolio__title">Data Flow</h3>
+                <p class="portfolio__description"> Implementing efficient data flow and management using Node.js and Express, ensuring seamless communication between front-end and back-end systems.</p>
+            </div>
+          </a>
+          <a href="fullstack.html" class="portfolio__item">
+            <img src="https://s3-cdn.cmlabs.co/page/2023/09/14/full-stack-developer-definition-roles-and-skills-009109.png" alt="Portfolio Project 1" class="portfolio__img">
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Full-Stack</p>
+                <h3 class="portfolio__title">Blog Platform</h3>
+                <p class="portfolio__description">An AI-powered blogging platform built with React, Node.js, Express, and MySQL, featuring real-time content suggestions, authentication, and a smooth writing experience.</p>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!--===============CONTACT ME=================-->
+      <section class="contact" id="contact">
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <h2 class="section__title">Get in Touch</h2>
+
+            <p class="contact__description">I am available for getting in touch via email<a href="mailto: Choudharyyash8128@gmail.com"> Choudharyyash8128@gmail.com</a> or through my contact number<a href="tel:+91 7801-963945">+91 7801-963945</a></p>
+
+
+            <form action="" class="contact__form" id="contact-form">
+              <div class="contact__form-input">
+                <input type="text" 
+                name="name"
+                 placeholder="Your Name *"
+                class="contact__input"
+                id="contact-name">
+              </div>
+
+              <div class="contact__form-input">
+                <input type="text" 
+                name="email"
+                 placeholder="Your Email *"
+                class="contact__input"
+                id="contact-email">
+              </div>
+  
+              <div class="contact__form-input">
+                <input type="text" 
+                name="subject"
+                 placeholder="Subject *"
+                class="contact__input"
+                id="contact-subject">
+              </div>
+
+              <div class="contact__form-input">
+                <textarea name="message" id="contact-message" class="contact__input textarea" placeholder="Your Message *"></textarea>
+              </div>
+
+              <input type="submit" value="Send Message" class="btn">
+
+              <p class="error__message" id="error_message"></p>
+            </form>
+          </div>
+
+          <img src="assets/img/Doraemon.jpg" alt="" class="contact__img">
+        </div>
+      </section>
+
+      <!--===============FOOTER=================-->
+      <footer class="footer">
+        <div class="footer__container container grid">
+          <a href="index.html" class="footer__logo">Y<span>A</span>S<span>H</span></a>
+          <div class="footer__socials">
+            <a href="www.facebook.com" target="_blank" class="footer__social-link">
+              <i class="uil uil-facebook-f"></i>
+            </a>
+            <a href="https://github.com/Yash7801" target="_blank" class="footer__social-link">
+              <i class="uil uil-github"></i>
+            </a>
+            <a href="www.instagram.com" target="_blank" class="footer__social-link">
+              <i class="uil uil-instagram"></i>
+            </a>
+          </div>
+
+          <p class="footer__copyright"> &copy; 2025 YASH. All rights reserved.</p>
+        </div>
+      </footer>
+
+
+      <!--======Scroll Up=======================-->
+
+      <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-angle-up scrollup__icon"> </i>
+      </a>
+
+
+      <!--==============Email.js=================-->
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+      <script src="/assets/js/main.js"></script>
+    </main>
+  </body>
+</html>
+        </div>
+      </section>
+
+      <!--============About section==============-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <img src="assets/img/about.doraemon.webp" alt="" class="img__about" />
+
+          <div class="about__content">
+            <h2 class="section__title">About Me</h2>
+
+            <p class="about__description">
+              I'm a passionate Full Stack Developer with experience in building
+              dynamic web applications. I love coding and I'm always eager to
+              learn new technologies.
+            </p>
+
+            <div class="tabs__btns">
+              <span class="tabs__btn tab__active" data-target="#skills"
+                >Main Skills</span
+              >
+              <span class="tabs__btn" data-target="#education">Education</span>
+              <span class="tabs__btn" data-target="#certifications"
+                >Certifications and Experience</span
+              >
+              <span class="tabs__btn" data-target="#projects">Projects</span>
+            </div>
+
+            <div class="tabs__content">
+              <div class="tabs__item tab__active" data-content id="skills">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>Front-End Development:</span><br />Proficient in HTML,
+                    CSS, Tailwind CSS, JavaScript, and frameworks like React.js
+                  </p>
+                  <p class="tabs__description">
+                    <span>Back-End Development:</span><br />Experience with
+                    Node.js, Express.js, and building RESTful APIs.
+                  </p>
+                  <p class="tabs__description">
+                    <span>Databases:</span><br />Experience with MySQL.
+                  </p>
+                  <p class="tabs__description">
+                    <span>Data Structures and Algorithms:</span><br />Strong
+                    problem-solving skills.
+                  </p>
+                  <p class="tabs__description">
+                    <span>Version Control:</span><br />Familiar with Git.
+                  </p>
+                  <p class="tabs__description">
+                    <span>Authentication and Authorization:</span><br />Familiar
+                    with tokenization and JWT.
+                  </p>
+                  <p class="tabs__description">
+                    <span>API Integration:</span><br />Knowledge of RESTful
+                    APIs.
+                  </p>
+                </div>
+              </div>
+
+              <div class="tabs__item" data-content id="education">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>B.Tech in CSE</span> - from IP University, Delhi,
+                    India<br /><span>2021-2025</span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="tabs__item" data-content id="certifications">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>Experience:</span><br />Served as a core part of
+                    Technical Society.
+                  </p>
+                  <p class="tabs__description">
+                    <span>Leadership:</span><br />Organized hackathons and
+                    conferences (ICRAIMMSTEL).
+                  </p>
+                  <p class="tabs__description">
+                    <span>Certifications:</span><br />Event Organizer •
+                    Leadership in Tech • Technical Society Member
+                  </p>
+                  <p class="tabs__description">
+                    <span>DSA Achievements:</span><br />3x Monthly Topper on
+                    Code360 • 1 Gold, 2 Silver, 3 Bronze • 500+ Problems Solved
+                  </p>
+                </div>
+              </div>
+
+              <div class="tabs__item" data-content id="projects">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>Major Project:</span> Real-time Blogging Platform
+                    using MERN in MySQL.
+                  </p>
+                  <p class="tabs__description">
+                    <span>Mini Projects:</span> E-commerce Platform (HTML, CSS,
+                    JS, Node.js) • Other React.js Projects
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--==============SERVICES=================-->
+      <section class="services section" id="services">
+        <h2 class="section__title">My Services</h2>
+        <p class="section__description">
+          I offer a range of services to help you build and improve your web
+          applications.
+        </p>
+
+        <div class="services__container  container grid">
+          <div class="services__item">
+            <i class="uil uil-building services__icon"></i>
+            <h3 class="services__title">Front-End Development</h3>
+            <p class="services__description">
+              I build responsive and interactive user interfaces using React.js
+              and modern CSS frameworks, ensuring seamless user experiences
+              across all devices.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-database services__icon"></i>
+            <h3 class="services__title">Back-End Development</h3>
+            <p class="services__description">
+              I develop secure and efficient RESTful APIs using Node.js and
+              Express, and manage databases with MySQL for optimized performance
+              and scalability.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-layer-group services__icon"></i>
+            <h3 class="services__title">Full-Stack Development</h3>
+            <p class="services__description">
+              I integrate both front-end and back-end technologies to deliver
+              complete, high-performance web applications using React.js and
+              Node.js.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--=================PORTFOLIO=================-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">My Latest Projects</h2>
+        <p class="section__description">Here are some of the projects I've worked on recently.</p>
+
+        <div class="portfolio__container container grid ">
+          <a href="frontend.html" class="portfolio__item">
+            <img src="https://media.licdn.com/dms/image/v2/D5612AQFSVrEIJxq_aA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1679683081898?e=2147483647&v=beta&t=jy1SUv24boZ0boUutFvP8a1cDXfXcvnHinVztXzqen4" alt="Portfolio Project 1" class="portfolio__img">
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Front-End</p>
+                <h3 class="portfolio__title">Web Design</h3>
+                <p class="portfolio__description"> Creating sleek, responsive, and user-friendly web interfaces using React.js and modern design practices.</p>
+            </div>
+          </a>
+          <a href="backend.html" class="portfolio__item">
+            <img src="https://winzons.com/wp-content/uploads/2024/06/Backend-Engineer-1.jpg" alt="Portfolio Project 1" class="portfolio__img">
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Back-End</p>
+                <h3 class="portfolio__title">Data Flow</h3>
+                <p class="portfolio__description"> Implementing efficient data flow and management using Node.js and Express, ensuring seamless communication between front-end and back-end systems.</p>
+            </div>
+          </a>
+          <a href="fullstack.html" class="portfolio__item">
+            <img src="https://s3-cdn.cmlabs.co/page/2023/09/14/full-stack-developer-definition-roles-and-skills-009109.png" alt="Portfolio Project 1" class="portfolio__img">
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Full-Stack</p>
+                <h3 class="portfolio__title">Blog Platform</h3>
+                <p class="portfolio__description">An AI-powered blogging platform built with React, Node.js, Express, and MySQL, featuring real-time content suggestions, authentication, and a smooth writing experience.</p>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!--===============CONTACT ME=================-->
+      <section class="contact" id="contact">
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <h2 class="section__title">Get in Touch</h2>
+
+            <p class="contact__description">I am available for getting in touch via email<a href="mailto: Choudharyyash8128@gmail.com"> Choudharyyash8128@gmail.com</a> or through my contact number<a href="tel:+91 7801-963945">+91 7801-963945</a></p>
+
+
+            <form action="" class="contact__form" id="contact-form">
+              <div class="contact__form-input">
+                <input type="text" 
+                name="name"
+                 placeholder="Your Name *"
+                class="contact__input"
+                id="contact-name">
+              </div>
+
+              <div class="contact__form-input">
+                <input type="text" 
+                name="email"
+                 placeholder="Your Email *"
+                class="contact__input"
+                id="contact-email">
+              </div>
+  
+              <div class="contact__form-input">
+                <input type="text" 
+                name="subject"
+                 placeholder="Subject *"
+                class="contact__input"
+                id="contact-subject">
+              </div>
+
+              <div class="contact__form-input">
+                <textarea name="message" id="contact-message" class="contact__input textarea" placeholder="Your Message *"></textarea>
+              </div>
+
+              <input type="submit" value="Send Message" class="btn">
+
+              <p class="error__message" id="error_message"></p>
+            </form>
+          </div>
+
+          <img src="assets/img/Doraemon.jpg" alt="" class="contact__img">
+        </div>
+      </section>
+
+      <!--===============FOOTER=================-->
+      <footer class="footer">
+        <div class="footer__container container grid">
+          <a href="index.html" class="footer__logo">Y<span>A</span>S<span>H</span></a>
+          <div class="footer__socials">
+            <a href="www.facebook.com" target="_blank" class="footer__social-link">
+              <i class="uil uil-facebook-f"></i>
+            </a>
+            <a href="https://github.com/Yash7801" target="_blank" class="footer__social-link">
+              <i class="uil uil-github"></i>
+            </a>
+            <a href="www.instagram.com" target="_blank" class="footer__social-link">
+              <i class="uil uil-instagram"></i>
+            </a>
+          </div>
+
+          <p class="footer__copyright"> &copy; 2025 YASH. All rights reserved.</p>
+        </div>
+      </footer>
+
+
+      <!--======Scroll Up=======================-->
+
+      <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-angle-up scrollup__icon"> </i>
+      </a>
+
+
+      <!--==============Email.js=================-->
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+      <script src="/assets/js/main.js"></script>
+    </main>
+  </body>
+</html>

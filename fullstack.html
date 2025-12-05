@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Full-Stack Projects - YASH</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+  </head>
+  <body>
+    <!--===============HEADER===================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">Y<span>A</span>S <span>H</span></a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="index.html#home" class="nav__link">Home</a></li>
+            <li><a href="index.html#about" class="nav__link">About</a></li>
+            <li><a href="index.html#services" class="nav__link">Services</a></li>
+            <li><a href="index.html#portfolio" class="nav__link">Projects</a></li>
+            <li><a href="index.html#contact" class="nav__link">Contact</a></li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="uil uil-times"></i>
+          </div>
+        </div>
+
+        <div class="nav__socials">
+          <a href="www.facebook.com" target="_blank" class="nav__social-link">
+            <i class="uil uil-facebook-f"></i>
+          </a>
+          <a href="www.github.com" target="_blank" class="nav__social-link">
+            <i class="uil uil-github"></i>
+          </a>
+          <a href="www.instagram.com" target="_blank" class="nav__social-link">
+            <i class="uil uil-instagram"></i>
+          </a>
+        </div>
+
+        <div class="nav__btns">
+          <a href="index.html#contact" class="nav__link-btn btn">Contact Me</a>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--=================MAIN=================-->
+    <main class="main">
+      <!--=================FULLSTACK PROJECTS=================-->
+      <section class="portfolio section" style="padding-top: 12rem;">
+        <div class="container">
+          <h2 class="section__title">Full-Stack Projects</h2>
+          <p class="section__description">
+            Production-ready full-stack applications with complete backend
+            architecture, deployment, and real-world functionality.
+          </p>
+
+          <!-- BLOG PROJECT -->
+          <div class="project__item" style="margin-bottom: 4rem;">
+            <h3 class="project__title">AI-Enhanced Blog Platform</h3>
+            <p class="project__subtitle">
+              A full-stack blogging system with AI-assisted content generation,
+              secure authentication, and cloud-based image uploads.
+            </p>
+
+            <div class="project__tags">
+              <span class="tag">React</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">Express</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">JWT</span>
+              <span class="tag">SCSS</span>
+              <span class="tag">CORS</span>
+              <span class="tag">Cloudinary</span>
+              <span class="tag">Groq API</span>
+            </div>
+
+            <div class="project__buttons">
+              <a href="https://blogpage-two-sigma.vercel.app/" class="btn" target="_blank">Live Demo</a>
+              <a href="https://github.com/Yash7801/Ai-enhanced-Blog.git" class="btn" target="_blank">GitHub Repo</a>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; align-items: start;">
+              <!-- Features on Left -->
+              <div>
+                <ul class="project__features">
+                  <li>
+                    <i class="uil uil-check-circle"></i> Secure JWT authentication
+                    with full CRUD operations
+                  </li>
+                  <li>
+                    <i class="uil uil-check-circle"></i> AI-powered writing
+                    assistance using Groq
+                  </li>
+                  <li>
+                    <i class="uil uil-check-circle"></i> Multer + Cloudinary for
+                    cloud-based uploads
+                  </li>
+                  <li>
+                    <i class="uil uil-check-circle"></i> RESTful backend with clean
+                    routing & middleware
+                  </li>
+                  <li>
+                    <i class="uil uil-check-circle"></i> Fully deployed on Vercel,
+                    Render, and Railway
+                  </li>
+                </ul>
+
+                <div class="project__notes" style="margin-top:1rem; border-left:2px solid var(--first-color); padding-left:1rem;">
+                  <h4 style="margin:0 0 0.5rem 0; color:var(--title-color); font-size: var(--h3-font-size);">Note</h4>
+                  <p style="margin:0; color:gray-400;"></p>
+                    <li>Please Open it on Microsoft edge or any other browser except chrome, since chrome has started to block cors and cross validation</li>
+                  </p>
+                  <br>
+                    <li>Please Open it on Microsoft edge or any other browser except chrome, since chrome has started to block cors and cross validation</li></p>
+                </div>
+              </div>
+
+              <!-- Video on Right -->
+              <div class="project__video" style="margin-top: -2rem;">
+                <h4 style="color: var(--title-color); margin-bottom: 1rem; font-weight: var(--weight-600);">Demo Video</h4>
+                <video width="100%" height="400px" controls style="border-radius: var(--radius); display: block;">
+                  <source src="videos-ss/Blogs.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </div>
+
+          <!------------------------------------------------------------ CHESS PROJECT --------------------------------------------------------->
+          <div class="project__item">
+            <h3 class="project__title">Real-Time Multiplayer Chess</h3>
+            <p class="project__subtitle">
+              A TypeScript-powered online chess game with WebSocket-based
+              real-time gameplay and instant move synchronization.
+            </p>
+
+            <div class="project__tags">
+              <span class="tag">TypeScript</span>
+              <span class="tag">React</span>
+              <span class="tag">WebSockets</span>
+              <span class="tag">Chess.js</span>
+              <span class="tag">Node.js</span>
+            </div>
+
+            <div class="project__buttons">
+              <a href="https://chess-game-alpha-three.vercel.app/" class="btn" target="_blank">Live Demo</a>
+              <a href="https://github.com/Yash7801/Chess-game" class="btn" target="_blank">GitHub Repo</a>
+            </div>
+
+            <!-- Video Demo -->
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; align-items: start;">
+              <!-- Features on Left -->
+              <div>
+                <ul class="project__features">
+                  <li>
+                    <i class="uil uil-check-circle"></i> Real-time gameplay using
+                    WebSockets
+                  </li>
+                  <li>
+                    <i class="uil uil-check-circle"></i> Move validation using
+                    Chess.js
+                  </li>
+                  <li>
+                    <i class="uil uil-check-circle"></i> Turn-based system
+                    enforcing white/black logic
+                  </li>
+                  <li>
+                    <i class="uil uil-check-circle"></i> Stable room handling with
+                    reconnection support
+                  </li>
+                  <li>
+                    <i class="uil uil-check-circle"></i> Built entirely in
+                    TypeScript
+                  </li>
+                </ul>
+
+                <div class="project__notes" style="margin-top:1rem; border-left:2px solid var(--first-color); padding-left:1rem;">
+                  <h4 style="margin:0 0 0.5rem 0; color:var(--title-color); font-size: var(--h3-font-size);">Note</h4>
+                  <p style="margin:0; color:gray-400;"><li>As the backend is being deployed on Render so give it a minute to cold start and then refresh the page please, cause Render sleeps after 15 minutes of no traffic.</li><br>
+                  <li>Please open two ports at the same time to run this project cause one for white and for black.</li></p>
+                </div>
+              </div>
+
+              <!-- Video on Right -->
+              <div class="project__video" style="margin-top: -2rem;">
+                <h4 style="color: var(--title-color); margin-bottom: 1rem; font-weight: var(--weight-600);">Demo Video</h4>
+                <video width="100%" height="400px" controls style="border-radius: var(--radius); display: block;">
+                  <source src="/videos-ss/Chess.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Back Button -->
+      <section class="section">
+        <div class="container">
+          <p style="text-align: center; margin-bottom: 2rem;">
+            <a href="index.html" class="nav__link" style="font-size: 1.125rem;">
+              <i class="uil uil-arrow-left"></i> Back to Portfolio
+            </a>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!--===============FOOTER=================-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <a href="index.html" class="footer__logo">Y<span>A</span>S<span>H</span></a>
+        <div class="footer__socials">
+          <a href="www.facebook.com" target="_blank" class="footer__social-link">
+            <i class="uil uil-facebook-f"></i>
+          </a>
+          <a
+            href="https://github.com/Yash7801"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="uil uil-github"></i>
+          </a>
+          <a href="www.instagram.com" target="_blank" class="footer__social-link">
+            <i class="uil uil-instagram"></i>
+          </a>
+        </div>
+
+        <p class="footer__copyright">&copy; 2025 YASH. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!--======Scroll Up=======================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-angle-up scrollup__icon"></i>
+    </a>
+
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>
