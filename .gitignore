@@ -1,0 +1,3 @@
+# Ignore local video assets and other large media
+videos-ss/
+*.mp4
